@@ -1,0 +1,7 @@
+.table > :not(:first-child) {
+  border-top: 0;
+}
+
+tr {
+  border-top: hidden;
+}
