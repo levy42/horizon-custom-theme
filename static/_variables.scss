@@ -21,11 +21,11 @@ $gray: #5e5e5e !default;
 $gray-light: #9f9f9f !default;
 $gray-lighter:           lighten(#000, 93.5%) !default; // #eee
 
-$brand-primary: rgb(20, 16, 16) !default;
-$brand-success: rgb(25, 204, 49) !default;
+$brand-primary: rgb(22, 140, 234) !default;
+$brand-success: rgb(42, 179, 24) !default;
 $brand-info: #7acfff !default;
-$brand-warning: #ffae18 !default;
-$brand-danger: #e41f08 !default;
+$brand-warning: #f8bc21 !default;
+$brand-danger: #f4451f !default;
 
 
 //== Scaffolding
@@ -485,19 +485,19 @@ $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 
 $state-success-text: #297c29 !default;
 $state-success-bg:               #dff0d8 !default;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-border:           #dff0d8 !default;
 
 $state-info-text:                #31708f !default;
 $state-info-bg:                  #d9edf7 !default;
-$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+$state-info-border:              #d9edf7 !default;
 
 $state-warning-text:             #8a6d3b !default;
 $state-warning-bg:               #fcf8e3 !default;
-$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+$state-warning-border:           #fcf8e3 !default;
 
-$state-danger-text: #8e1c1c !default;
+$state-danger-text: #95271a !default;
 $state-danger-bg:                #f2dede !default;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+$state-danger-border:            #f2dede !default;
 
 
 //== Tooltips
